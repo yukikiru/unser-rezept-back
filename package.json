@@ -1,22 +1,24 @@
 {
-    "name": "unser-rezept",
-    "version": "0.0.1",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "bcryptjs": "^2.4.3",
-      "body-parser": "^1.19.0",
-      "cors": "^2.8.5",
-      "express": "^4.17.1",
-      "jsonwebtoken": "^8.5.1",
-      "mongoose": "^5.11.12",
-      "path": "^0.12.7"
-    }
-  }
-  
+  "name": "unser-rezept-back",
+  "version": "0.0.1",
+  "description": "Backend for Unser Rezept",
+  "main": "server.js",
+  "dependencies": {
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukikiru/unser-rezept-back.git"
+  },
+  "author": "Ty Unser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yukikiru/unser-rezept-back/issues"
+  },
+  "homepage": "https://github.com/yukikiru/unser-rezept-back#readme"
+}
